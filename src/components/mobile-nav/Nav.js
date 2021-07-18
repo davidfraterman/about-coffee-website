@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./Nav.css";
 
 import light from "../../images/menu.png"
-import dark from "../../images/menu.png";
 
 const Nav = (props) => {
   const [navHeight, setNavHeight] = useState("0%");
