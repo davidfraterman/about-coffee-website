@@ -1,23 +1,30 @@
 .aanbevolen-prod-wrapper {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    background-color: white;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .aanbevolen-prod-text {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .aanbevolen-prod-text h1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .prod-items {
-    display: flex;
-    overflow-x: scroll; 
- 
+  display: flex;
+
+  overflow-x: scroll;
+}
+
+.prod-items::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.prod-items::-webkit-scrollbar-track {
+  background-color: transparent;
 }
