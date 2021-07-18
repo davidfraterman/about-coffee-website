@@ -25,6 +25,7 @@ const App = () => {
 
             <Route path="/loading" component={LoadingPage} />
             <Route component={NotFound} />
+            <Route path="/producten/" component={NotFound} />
           </Switch>
         </Suspense>
       </Router>

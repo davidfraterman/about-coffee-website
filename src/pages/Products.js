@@ -1,10 +1,17 @@
+import { useEffect } from "react";
+import Nav from "../components/mobile-nav/Nav";
 
 const Products = () => {
-    return (
-        <>
-            <h1>Producten</h1>
-        </>
-    )
-}
+  useEffect(() => {
+    document.title = "About Coffee - Producten";
+  });
 
-export default Products
+  return (
+    <>
+      <Nav darkMode />
+      <h1>Producten</h1>
+    </>
+  );
+};
+
+export default Products;

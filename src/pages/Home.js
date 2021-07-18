@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import ArrowLink from "../components/buttons/ArrowLink";
 import HomeHeader from "../components/HomeHeader";
 import AanbevolenProducten from "../components/aanbevolen/AanbevolenProducten";
-import Ratings from "../components/Ratings";
+// import Ratings from "../components/Ratings";
 import * as ROUTES from "../constants/routes";
 import "./Home.css";
 
@@ -29,7 +29,7 @@ const Home = () => {
       </div>
 
       <AanbevolenProducten />
-      <Ratings />
+      {/* <Ratings /> */}
 
       <div className="home section-image">
         <div className="section-image-text">

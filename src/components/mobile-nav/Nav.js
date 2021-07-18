@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-import light from "../../images/menu.png"
+import light from "../../images/menu-light.png"
+import dark from "../../images/menu-dark.png";
 
 const Nav = (props) => {
   const [navHeight, setNavHeight] = useState("0%");
@@ -19,7 +20,10 @@ const Nav = (props) => {
   return (
     <div className="nav-container">
       <Link to="/">
-        <h3 className="logo-text" style={{ color: props.color }}>
+        <h3
+          className="logo-text"
+          style={{ color: props.darkMode ? "#7e6a5c" : "#ededed" }}
+        >
           About Coffee
         </h3>
       </Link>
@@ -39,10 +43,13 @@ const Nav = (props) => {
           </Link>
         </ul>
         <ul className="mobile-nav">
-          <button onClick={openNav} style={{ color: props.color }}>
+          <button
+            onClick={openNav}
+            style={{ color: props.darkMode ? "#7e6a5c" : "#ededed" }}
+          >
             <img
               className="menu-icon"
-              src={light}
+              src={props.darkMode ? dark : light}
               alt="menu icon"
             />
           </button>

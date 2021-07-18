@@ -5,8 +5,8 @@ import "./AanbevolenItem.css";
 const Item = (props) => {
   return (
     <div className="aanbevolen-item-wrapper">
-      <div className="aanbevolen-item">
-        <Link to={`/producten/${props.linkid}`}>
+      <Link to={`/producten/${props.linkid}`}>
+        <div className="aanbevolen-item">
           <img
             className="aanbevolen-item-img"
             src={`/product-images/${props.linkid}.jpg`}
@@ -14,11 +14,11 @@ const Item = (props) => {
           />
           <p className="item-name">{props.name}</p>
           <p className="item-price">${props.price}</p>
-        </Link>
-      </div>
-      <div className="aanbevolen-item-button">
-        <AanbevolenButton>Bekijk product</AanbevolenButton>
-      </div>
+        </div>
+        <div className="aanbevolen-item-button">
+          <AanbevolenButton>Bekijk product</AanbevolenButton>
+        </div>
+      </Link>
     </div>
   );
 };

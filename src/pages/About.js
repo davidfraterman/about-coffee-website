@@ -8,7 +8,7 @@ const About = () => {
     
   return (
     <>
-      <Nav/>
+      <Nav darkMode/>
 
       <h1>Over ons</h1>
     </>

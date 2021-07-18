@@ -4,7 +4,7 @@ export const ProductContext = createContext();
 
 export const ProductProvider = (props) => {
   const [aanbevolenProducten] = useState([
-    { id: 0, name: "Koffie naam", price: "23" },
+    { id: 1, name: "Koffie naam", price: "23" },
     { id: 2, name: "Koffie naam 2", price: "42" },
     { id: 3, name: "Koffie naam 3", price: "13" },
     { id: 4, name: "Koffie naam 4", price: "16" },
