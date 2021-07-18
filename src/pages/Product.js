@@ -7,14 +7,14 @@ const Product = ({ match }) => {
   const [aanbevolenProducten] = useContext(ProductContext);
 
   useEffect(() => {
-    document.title = `About Coffee - ${aanbevolenProducten[match.params.id].name}`;
+    document.title = `About Coffee - ${aanbevolenProducten[match.params.id] ? aanbevolenProducten[match.params.id-1].name : 'Ongeldig'}`;
   });
 
   console.log(match);
   console.log(aanbevolenProducten[match.params.id]);
   return (
     <div>
-      {aanbevolenProducten[match.params.id] ? (
+      {aanbevolenProducten[match.params.id-1] ? (
         <>
           <Nav darkMode />
           <h1>Product {aanbevolenProducten[match.params.id-1].name}</h1>
