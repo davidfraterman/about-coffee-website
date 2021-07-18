@@ -8,7 +8,7 @@ import shoppingcart from "../images/shoppingcart.png";
 const HomeHeader = (props) => {
   return (
     <div className="hero-image">
-      <Nav />
+      <Nav color="" src="../../images/menu.png" />
       <div className="hero-content-wrapper">
         <div className="hero-content">
           <h1 className="hero-title">Colombiaanse Single Origin Koffie</h1>
@@ -29,7 +29,6 @@ const HomeHeader = (props) => {
               </div>
             </Button>
           </Link>
-
         </div>
       </div>
     </div>

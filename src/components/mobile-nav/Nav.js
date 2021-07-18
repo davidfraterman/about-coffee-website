@@ -2,11 +2,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-import menu from "../../images/menu.png"
+import light from "../../images/menu.png"
+import dark from "../../images/menu.png";
 
 const Nav = (props) => {
   const [navHeight, setNavHeight] = useState("0%");
-
+  
   const openNav = () => {
     setNavHeight("100%");
   };
@@ -14,6 +15,7 @@ const Nav = (props) => {
   const closeNav = () => {
     setNavHeight("0%");
   };
+
 
   return (
     <div className="nav-container">
@@ -37,16 +39,17 @@ const Nav = (props) => {
             <li>Blog</li>
           </Link>
         </ul>
-
         <ul className="mobile-nav">
           <button onClick={openNav} style={{ color: props.color }}>
-            <img className="menu-icon" src={menu} alt="menu icon" />
+            <img
+              className="menu-icon"
+              src={light}
+              alt="menu icon"
+            />
           </button>
         </ul>
-
         <div className="mobile-overlay" style={{ height: navHeight }}>
           <div className="mobile-overlay-content">
-            
             <div className="mobile-overlay-content__links">
               <Link to="/">
                 <li>Home</li>
