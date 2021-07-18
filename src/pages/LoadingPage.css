@@ -2,9 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
+    background-color: #7e6a5c;
+    overflow: hidden;
 }
 
 .loading-spinner {
-    width: 50%;
+    width: 100%;
 }
