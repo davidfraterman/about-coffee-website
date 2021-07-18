@@ -22,6 +22,8 @@ const App = () => {
             <Route path="/blog" component={Blog} />
             <Route path="/producten" exact component={Products} />
             <Route path="/producten/:id" component={Product} />
+
+            <Route path="/loading" component={LoadingPage} />
             <Route component={NotFound} />
           </Switch>
         </Suspense>

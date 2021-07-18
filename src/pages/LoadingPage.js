@@ -10,7 +10,7 @@ const LoadingPage = () => {
 
   return (
     <div className="loading-wrapper">
-      <img src={loadingSpinner} alt="Loading" width="15%" />
+      <img className="loading-spinner" src={loadingSpinner} alt="Loading" />
     </div>
   );
 };
