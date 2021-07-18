@@ -1,0 +1,11 @@
+.arrowlink-img {
+    display: inline-block;
+    height: 12px;
+     margin-left: 0.5rem;
+}
+
+a {
+    color: #7B3E19;
+    font-size: 120%;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,15 @@
+button.buy-button {
+  background-color: #a37d64;
+  color: #f6f6f6;
+  padding: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 3px;
+  font-weight: normal;
+  font-size: 100%;
+  outline: none;
+}
+
+button.buy-button:hover {
+  cursor: pointer;
+}

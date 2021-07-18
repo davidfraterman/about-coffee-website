@@ -1,0 +1,54 @@
+.nav-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero-image {
+  background-image: linear-gradient(
+      rgba(17, 14, 13, 0.692),
+      rgba(17, 14, 13, 0.692)
+    ),
+    url("../images/hero-bg.JPG");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 0rem;
+  padding-bottom: 5rem;
+}
+
+.hero-title {
+  font-family: "Merriweather", serif;
+  color: #ededed;
+  margin-bottom: 1.5rem;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+}
+
+.hero-content-wrapper {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.hero-content {
+  text-align: left;
+  color: #f6f6f6;
+}
+
+.hero-content p {
+  margin-bottom: 1.5rem;
+  color: #cbcbcb;
+  font-size: 85%;
+}
+
+.button-icon {
+  display: inline;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.button-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

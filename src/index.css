@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.hero-title {
+  font-size: 225%;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  color: #494949;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #7b3e19;
+  font-size: 95%;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: #7e6a5c;
+}
+
+button {
+  border: none;
+}

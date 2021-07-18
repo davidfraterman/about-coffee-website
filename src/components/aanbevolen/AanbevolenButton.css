@@ -1,0 +1,15 @@
+button.aanbevolen-button {
+  background-color: #a37d64;
+  color: #f6f6f6;
+  padding: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  font-weight: normal;
+  outline: none;
+  width: 100%;
+}
+
+button.aanbevolen-button:hover {
+  cursor: pointer;
+}

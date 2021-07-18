@@ -1,0 +1,43 @@
+.aanbevolen-item-wrapper {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 4px 20px 0px;
+  display: inline;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  border-radius: 0px;
+}
+
+.aanbevolen-item-wrapper:nth-child(1) {
+  margin-left: 7.5%;
+}
+
+.aanbevolen-item-wrapper .item-name {
+  color: #494949;
+  text-align: center;
+  font-size: 110%;
+}
+
+.aanbevolen-item-wrapper .item-price {
+  text-align: center;
+  color: #7e6a5c;
+}
+
+.aanbevolen-item {
+  padding: 1.5rem;
+}
+
+.aanbevolen-item-img {
+  width: 35vw;
+  max-width: 250px;
+  border-radius: 3px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 0 auto;
+}
+
+.aanbevolen-item-button {
+  padding: 0.75rem;
+  padding-top: 0;
+}

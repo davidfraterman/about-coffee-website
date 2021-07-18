@@ -1,0 +1,7 @@
+.ratings-wrapper {
+    background-image: linear-gradient(
+      rgba(17, 14, 13, 0.692),
+      rgba(17, 14, 13, 0.692)
+    ),
+    url("../images/boer.JPG");
+}
