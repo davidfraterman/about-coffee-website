@@ -18,8 +18,8 @@
   border-top: 5px solid #d8b6a0;
   width: 60px;
   height: 60px;
-  -webkit-animation: spin 0.5ss ease-in-out infinite; /* Safari */
-  animation: spin 0.5s ease infinite;
+  -webkit-animation: spin 0.5s linear infinite; /* Safari */
+  animation: spin 0.5s linear infinite;
   margin-left: 2px;
 }
 
