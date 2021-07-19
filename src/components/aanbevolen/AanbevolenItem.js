@@ -11,6 +11,7 @@ const Item = (props) => {
             className="aanbevolen-item-img"
             src={`/product-images/${props.linkid}.jpg`}
             alt={`${props.name}`}
+            loading="lazy"
           />
           <p className="item-name">{props.name}</p>
           <p className="item-price">${props.price}</p>

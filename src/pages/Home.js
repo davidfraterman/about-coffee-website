@@ -44,7 +44,7 @@ const Home = () => {
           <ArrowLink to={ROUTES.BLOG} text="Blog" />
         </div>
         <div className="section-image-img">
-          <img src={boer} alt="boer" />
+          <img src={boer} alt="boer" loading="lazy" />
         </div>
       </div>
     </>
