@@ -7,18 +7,59 @@ const Product = ({ match }) => {
   const [aanbevolenProducten] = useContext(ProductContext);
 
   useEffect(() => {
-    document.title = `About Coffee - ${aanbevolenProducten[match.params.id] ? aanbevolenProducten[match.params.id-1].name : 'Ongeldig'}`;
+    document.title = `About Coffee - ${
+      aanbevolenProducten.findIndex(
+        (product) => product.urlId === match.params.id
+      ) !== -1
+        ? aanbevolenProducten[
+            aanbevolenProducten.findIndex(
+              (product) => product.urlId === match.params.id
+            )
+          ].productProperties.name
+        : "Ongeldig"
+    }`;
   });
 
-  console.log(match);
-  console.log(aanbevolenProducten[match.params.id]);
+  console.log(
+    aanbevolenProducten.findIndex(
+      (product) => product.urlId === match.params.id
+    )
+  );
+
   return (
     <div>
-      {aanbevolenProducten[match.params.id-1] ? (
+      {aanbevolenProducten.findIndex(
+        (product) => product.urlId === match.params.id
+      ) !== -1 ? (
         <>
           <Nav darkMode />
-          <h1>Product {aanbevolenProducten[match.params.id-1].name}</h1>
-          <h3>Prijs: {aanbevolenProducten[match.params.id-1].price} Euro</h3>
+          <h1>
+            Product:{" "}
+            {
+              aanbevolenProducten[
+                aanbevolenProducten.findIndex(
+                  (product) => product.urlId === match.params.id
+                )
+              ].productProperties.name
+            }
+          </h1>
+          <h3>
+            Prijs:{" "}
+            {
+              aanbevolenProducten[
+                aanbevolenProducten.findIndex(
+                  (product) => product.urlId === match.params.id
+                )
+              ].productProperties.price
+            }{" "}
+            Euro
+          </h3>
+          <img
+            src={`/product-images/${aanbevolenProducten.findIndex(
+              (product) => product.urlId === match.params.id
+            )}.jpg`}
+            alt="product"
+          />
         </>
       ) : (
         <h2>Dit product bestaat niet (meer) of is verplaatst.</h2>

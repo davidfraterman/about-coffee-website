@@ -5,7 +5,7 @@ import "./AanbevolenItem.css";
 const Item = (props) => {
   return (
     <div className="aanbevolen-item-wrapper">
-      <Link to={`/producten/${props.linkid}`}>
+      <Link to={`/producten/${props.urlid}`}>
         <div className="aanbevolen-item">
           <img
             className="aanbevolen-item-img"
