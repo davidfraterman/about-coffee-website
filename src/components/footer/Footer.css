@@ -35,7 +35,7 @@
 .footer-section-title {
   color: #f6f6f6;
   font-weight: 200;
-  font-size: 120%;
+  font-size: 125%;
 }
 
 .footer-section ul {
@@ -55,5 +55,12 @@
 
 .footer-bottom-social {
   width: 20px;
-  margin-right: 10px;
+  margin-right: 12px;
+}
+
+.footer-bottom-disclaimer {
+  font-size: 55%;
+  margin-bottom: 4rem;
+  margin-top: 0.5rem;
+  color: #707070;
 }
