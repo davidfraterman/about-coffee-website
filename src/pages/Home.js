@@ -9,7 +9,7 @@ import * as ROUTES from "../constants/routes";
 import "./Home.css";
 
 import shoppingcart from "../images/shoppingcart.png";
-import boer from "../../src/images/boer.jpg";
+import boer from "../images/boer-image.jpg";
 
 const Home = () => {
   useEffect(() => {
