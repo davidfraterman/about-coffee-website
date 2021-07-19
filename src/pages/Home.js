@@ -74,7 +74,6 @@ const Home = () => {
 
       <div className="home section-blog">
         <div className="aanbevolen-article">
-          <h2>BLOG</h2>
           <div className="aanbevolen-article-img-wrapper">
             <img className="aanbevolen-article-img" src={boer} alt="blog" />
           </div>
@@ -84,7 +83,7 @@ const Home = () => {
             voor 24% korting.
           </p>
 
-          <ArrowLink to={ROUTES.BLOG} text="Lees hier over" />
+          <ArrowLink to={ROUTES.BLOG} text="Lees meer" />
         </div>
       </div>
 

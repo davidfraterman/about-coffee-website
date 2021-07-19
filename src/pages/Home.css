@@ -33,6 +33,10 @@
   margin-bottom: 4rem;
 }
 
+.section-image-img {
+  background-color: #f6f6f6;
+}
+
 .section-image-img img {
   width: 100vw;
   margin: 0;
