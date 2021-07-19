@@ -14,13 +14,13 @@
 .section-plain {
   width: 85%;
   margin: 0 auto;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .section-image {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   display: grid;
   grid-template-columns: 1fr;
   background-color: white;
@@ -29,11 +29,45 @@
 .section-image-text {
   width: 85%;
   margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .section-image-img img {
   width: 100vw;
   margin: 0;
+}
+
+.section-blog {
+  background-color: white;
+}
+
+.aanbevolen-article {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.aanbevolen-article-img {
+  width: 85vw;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.aanbevolen-article h1 {
+  font-size: 130%;
+  font-weight: 200;
+}
+
+.aanbevolen-article p {
+  font-size: 80%;
+}
+
+.section-questions-content {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
