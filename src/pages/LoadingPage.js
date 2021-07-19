@@ -11,12 +11,7 @@ const LoadingPage = () => {
   return (
     <div className="loading-wrapper">
       {/* <img className="loading-spinner" src={loadingSpinner} alt="Loading" /> */}
-      <div className="loader"></div> <div className="loader1"></div>{" "}
-      <div className="loader"></div> <div className="loader1"></div>{" "}
-      <div className="loader"></div> <div className="loader1"></div>{" "}
-      <div className="loader"></div> <div className="loader1"></div>{" "}
-      <div className="loader"></div> <div className="loader1"></div>
-      <div className="loader"></div> <div className="loader1"></div>
+      <div className="loader"></div>{" "}
     </div>
   );
 };

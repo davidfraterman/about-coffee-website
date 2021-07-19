@@ -13,25 +13,13 @@
 
 .loader {
   display: block;
-  border: 2px solid #d6b78f;
-  border-radius: 0%;
-  border-top: 2px solid #d6b78f;
-  width: 3px;
+  border: 2px solid #7e6a5c;
+  border-radius: 100%;
+  border-top: 5px solid #d8b6a0;
+  width: 60px;
   height: 60px;
-  -webkit-animation: spin 0.5s ease-in-out infinite; /* Safari */
-  animation: spin 0.5s ease-in-out infinite;
-  margin-left: 2px;
-}
-
-.loader1 {
-  display: block;
-  border: 2px solid #bdbdbd;
-  border-radius: 0%;
-  border-top: 2px solid #bdbdbd;
-  width: 3px;
-  height: 60px;
-  -webkit-animation: spin 1s ease-in-out infinite; /* Safari */
-  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 0.5ss ease-in-out infinite; /* Safari */
+  animation: spin 0.5s ease infinite;
   margin-left: 2px;
 }
 
