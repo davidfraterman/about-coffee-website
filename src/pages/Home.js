@@ -10,6 +10,7 @@ import "./Home.css";
 
 import shoppingcart from "../images/shoppingcart.png";
 import boer from "../images/boer-image.jpg";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   useEffect(() => {
@@ -24,7 +25,7 @@ const Home = () => {
         <h2>ABOUT DIRECT & FAIR TRADE</h2>
 
         <h1>Verantwoord, en rechtstreeks van de boer</h1>
-        <p>
+        <p className="home-p">
           Hoge kwaliteit koffie speciaal gemaakt en afgesteld door de boer zelf
           voor een perfecte smaak.
         </p>
@@ -38,7 +39,7 @@ const Home = () => {
         <div className="section-image-text">
           <h2>ABOUT KWALITEIT</h2>
           <h1>De boer stelt alles zelf af tot perfectie</h1>
-          <p>
+          <p className="home-p">
             Hoge kwaliteit, rechtstreeks vanuit Colombia in uw keuken. Bestel nu
             voor 24% korting Bestel nu voor 24% korting. Hoge kwaliteit,
             rechtstreeks vanuit Colombia in uw keuken. Bestel nu voor 24%
@@ -54,7 +55,7 @@ const Home = () => {
       <div className="home section-plain">
         <h2>ABOUT DIRECT & FAIR TRADE</h2>
         <h1>Verantwoord, en rechtstreeks van de boer</h1>
-        <p>
+        <p className="home-p">
           Hoge kwaliteit koffie speciaal gemaakt en afgesteld door de boer zelf
           voor een perfecte smaak.
         </p>
@@ -78,12 +79,12 @@ const Home = () => {
             <img className="aanbevolen-article-img" src={boer} alt="blog" />
           </div>
           <h1>Hoe onze producten fair trade zijn</h1>
-          <p>
+          <p className="aanbevolen-article-p home-p">
             Hoge kwaliteit rechtstreeks vanuit Colombia in uw keuken. Bestel nu
             voor 24% korting.
           </p>
 
-          <ArrowLink to={ROUTES.BLOG} text="Lees meer" />
+          <ArrowLink elegant to={ROUTES.BLOG} text="Lees meer" />
         </div>
       </div>
 
@@ -93,6 +94,8 @@ const Home = () => {
           <ArrowLink to="mailto:davidspam228@gmail.com" text="Contact" />
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

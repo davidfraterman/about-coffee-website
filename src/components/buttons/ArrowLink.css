@@ -1,11 +1,19 @@
 .arrowlink-img {
-    display: inline-block;
-    height: 12px;
-     margin-left: 0.5rem;
+  display: inline-block;
+  height: 10px;
+  margin-left: 0.75rem;
 }
 
-a {
-    color: #7B3E19;
-    font-size: 120%;
-    font-family: 'Poppins', sans-serif;
+.arrow-normal-text {
+  display: inline;
+  color: #7b3e19;
+  font-size: 120%;
+  font-family: "Poppins", sans-serif;
+}
+
+.arrow-elegant-text {
+  display: inline;
+  color: #494949;
+  font-size: 100%;
+  font-family: "Merriweather", sans-serif;
 }
