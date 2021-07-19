@@ -1,0 +1,13 @@
+.product {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.product-image {
+  width: 10rem;
+}
+
+.product p {
+  color: black;
+}

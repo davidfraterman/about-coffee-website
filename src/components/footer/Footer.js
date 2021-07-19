@@ -43,16 +43,19 @@ const Footer = () => {
                 src={facebookLogo}
                 alt="social"
                 className="footer-bottom-social"
+                loading="lazy"
               />
               <img
                 src={instagramLogo}
                 alt="social"
                 className="footer-bottom-social"
+                loading="lazy"
               />
               <img
                 src={twitterLogo}
                 alt="social"
                 className="footer-bottom-social"
+                loading="lazy"
               />
             </div>
             <p className="footer-bottom-disclaimer">
