@@ -7,24 +7,18 @@
   overflow: hidden;
 }
 
-.loading-spinner {
-  width: 50%;
-}
-
 .loader {
+  margin-bottom: 20rem;
   display: block;
   border: 2px solid #7e6a5c;
   border-radius: 100%;
-  border-top: 5px solid #d8b6a0;
+  border-top: 2px solid #d8b6a0;
+  border-right: 2px solid #d8b6a0;
   width: 60px;
   height: 60px;
   -webkit-animation: spin 0.5s linear infinite; /* Safari */
-  animation: spin 0.5s linear infinite;
+  animation: spin 0.75s linear infinite;
   margin-left: 2px;
-}
-
-.aanhetladen {
-  display: block;
 }
 
 /* Safari */
